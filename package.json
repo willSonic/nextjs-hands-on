@@ -1,0 +1,16 @@
+{
+  "name": "nextjs-hands-on",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com-NOCSONIC:willSonic/nextjs-hands-on.git",
+  "author": "Will Streeter <will.streeter@nocsonic.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "scripts": {
+   "dev": "next"
+ }
+}
