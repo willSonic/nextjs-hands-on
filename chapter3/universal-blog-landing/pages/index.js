@@ -1,18 +1,19 @@
+
 import React from 'react';
 import Head from 'next/head';
-export default ({ children, title = 'The Universal Blog' }) => (
-    <div>
-      <Head>
-         <title>{title}</title>
-         <meta charSet="utf-8" />
-         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
-         <link rel="stylesheet" href="/static/css/normalize.css" />
-         <link rel="stylesheet" href="/static/css/skeleton.css" />
-         <link rel="stylesheet" href="/static/css/app.css" />
-      </Head>
 
+import Layout from '../components/Layout';
+import Header from '../components/Header';
+import Jumbotron from '../components/Jumbotron';
+import PostList from "../components/PostList";
+
+export default ({ children, title = 'The Universal Blog' }) => (
+  <Layout>
+    <Header>
+    <Jumbotron>
       <h1>{title}</h1>
-      <footer>I'm your footer</footer>
-   </div>
+    </Jumbotron>
+    </Header>
+    <PostList/>
+  </Layout>
 );

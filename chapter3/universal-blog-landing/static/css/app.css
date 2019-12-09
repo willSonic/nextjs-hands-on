@@ -1,0 +1,103 @@
+html, body {
+  font-family: 'Lato', sans-serif !important;
+  background: #f4f4f4;
+}
+
+header {
+  background-image: url('http://res.cloudinary.com/christekh/image/upload/q_auto/v1513865519/bg_hkhtaa.png');
+  background-color: #374355;
+  min-height: 300px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 56px;
+}
+
+.Header-user {
+  text-align: left;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.Header-user span {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.Header-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+  display: inline-block;
+}
+
+.Header-link:hover {
+  color: #e1e1e1;
+}
+
+.Jumbotron {
+  color: #fff;
+  margin: 20px 100px;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 480px) {
+  .Jumbotron {
+    margin: 20px 20px;
+  }
+}
+
+article {
+  background: #fff;
+  margin-bottom: 30px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.PostItem-content {
+  padding: 15px;
+}
+.PostItem-footer {
+  padding: 15px;
+  font-weight: 100;
+}
+.PostItem-footer span {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.Team {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 15px;
+}
+
+.Team img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.Team-content {
+  padding-top: 15px;
+}
+
+.Team-content h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.TeamList {
+  width: 40%;
+  margin: auto;
+}
